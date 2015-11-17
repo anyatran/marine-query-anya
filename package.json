@@ -1,0 +1,29 @@
+{
+  "name": "helmuth",
+  "version": "1.0.0",
+  "description": "helmuth",
+  "main": "main.js",
+  "dependencies": {
+    "angular": "^1.4.7",
+    "express": "^4.13.3",
+    "jade": "^1.11.0",
+    "nodemon": "^1.8.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/nodemon src/app.js",
+    "jshint": "grunt exec:jshint"
+  },
+  "keywords": [
+    "personal"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aektashah/marine-query.git"
+  },
+  "author": "anya tran",
+  "license": "ISC"
+}
